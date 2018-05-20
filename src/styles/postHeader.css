@@ -1,0 +1,20 @@
+.post_header{
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 25px;
+}
+
+.post_header .row{
+    margin-bottom: 25px;
+}
+
+.post p.user_name{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+
+.post p.time_post{
+    font-size: 14px;
+    color: #999;
+
+}
