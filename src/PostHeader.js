@@ -2,12 +2,12 @@ import React from 'react';
 
 import './styles/postHeader.css';
 
-const PostHeader = () => (
+const PostHeader = props => (
   <div className="post_header">
-    {/* <p src="src/imgs/user01.jpg" /> */}
+    <img alt="avatar" src={props.avatar} />
     <div className="row">
-      <p className="user_name">Matheus Gomes</p>
-      <p className="time_post">Há 3 min</p>
+      <p className="user_name">{props.name}</p>
+      <p className="time_post">{props.time}</p>
     </div>
   </div>
 );
